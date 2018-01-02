@@ -21,7 +21,7 @@ X_test = sc.transform(X_test)
 
 # Fit SVM to the Training set
 from sklearn.svm import SVC
-classifier = SVC(kernel = 'rbf')
+classifier = SVC(kernel = 'rbf')    # rbf = radial basis function
 classifier.fit(X_train, y_train)
 
 # Predict the Test set results
