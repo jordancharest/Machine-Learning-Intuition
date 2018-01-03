@@ -1,0 +1,1 @@
+Folder for practice with Clustering. Similar to Classification, but allows the computer to define the categories.
